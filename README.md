@@ -15,6 +15,8 @@ Open `index.html` in a browser. Select Widnes, Runcorn or Warrington from the Se
 
 Update the phone number in `index.html` if it changes. The supported area list is in the `serviceAreas` array in the page script and should match the navigation links. The Customer Reviews area links to Instagram while genuine customer reviews are not yet supplied. Add only reviews approved by the customers who wrote them. Instagram contact links to `https://www.instagram.com/jacksonsdrainagenorthwest`.
 
+The Contact section and footer include the business address, `76 Frank St, Widnes WA8 0AH`, linked to the supplied Google Maps share URL.
+
 ## Publish to Netlify
 
 Drag this folder to Netlify Drop with `index.html`, `styles.css` and `assets/` together at the root. Preserve the folder structure because the page uses relative asset paths. Netlify reads `_headers` from the published folder root. The headers omit `X-Frame-Options` so the site can be embedded in Google Sites.
